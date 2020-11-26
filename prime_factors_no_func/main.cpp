@@ -31,7 +31,6 @@ int main() {
                 current /= i;
                 // append another factor to the factor string for this index
                 output[counter] += (to_string(i) +  " x ");
-                // increment the factor count for this index
                 factorCounter[counter]++;
             }
         }
